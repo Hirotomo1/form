@@ -1,8 +1,8 @@
 "use client";
 
-import { useBasicFormTop } from "../hooks/use-basic-form-top";
+import { useBasicFormTop } from "./hooks/use-basic-form-top";
 
-export const Page = () => {
+const Page: React.FC = () => {
   const { register, onSubmit, errors } = useBasicFormTop();
   return (
     <div className="Form">
@@ -67,3 +67,5 @@ export const Page = () => {
     </div>
   );
 };
+
+export default Page;
