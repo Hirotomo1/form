@@ -1,6 +1,6 @@
 "use client";
 
-import { useBasicFormTop } from "./hooks/use-basic-form-top";
+import { useBasicFormTop } from "./hooks/useBasicFormTop";
 
 const Page: React.FC = () => {
   const { register, onSubmit, errors } = useBasicFormTop();
